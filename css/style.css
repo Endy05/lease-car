@@ -707,16 +707,21 @@ form {
         height: 200px;
     }
     .how__does-item {
-        padding: 65px 0 19px 0;
+        padding: 20px 0 19px 0;
         margin-right: auto;
+    }
+    .how__does-list {
+        padding-top: 70px;
     }
     .how__does-item::before {
         right: 0;
         left: 0;
+        top: -30px;
         width: 50px;
         height: 50px;
         margin: 0 auto;
         font-size: 32px;
+        margin-top: -20px;
     }
     .important__list {
         grid-template-columns: repeat(1, 1fr);
