@@ -342,7 +342,7 @@ a {
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 50px;
-    padding: 0 100px;
+    padding: 0 25px;
 }
 
 form {
@@ -641,6 +641,18 @@ form {
     .swiper-pagination-bullet:active {
         height: 4px;
     }
+    .footer__menu-item {
+        text-align: center;
+    }
+    .footer__menu-list {
+        max-width: 400px;
+    }
+    .container {
+        padding: 0 40px;
+    }
+    .choose {
+        padding-bottom: 100px;
+    }
 }
 
 @media (max-width: 650px) {
@@ -755,6 +767,9 @@ form {
     }
     .blog {
         padding-bottom: 50px;
+    }
+    .footer__menu-item {
+        text-align: center;
     }
 }
 
