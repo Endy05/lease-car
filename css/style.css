@@ -771,6 +771,9 @@ form {
     .footer__menu-item {
         text-align: center;
     }
+    .tabs__content, .blog__items, .tabs__btn {
+        padding: 0 10px;
+    }
 }
 
 
